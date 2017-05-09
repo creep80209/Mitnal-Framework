@@ -1,0 +1,160 @@
+/***** BEGIN DISCLAIMER DIALOG *****/
+	.disclaimer-dialog > .ui-dialog-titlebar {
+		background: none repeat scroll 0 0 #5e7630;
+		margin: 0 0 5px;
+		position: relative;
+	}
+	.disclaimer-dialog > .ui-dialog-titlebar > span {
+		color: white;	
+		font-size: 14pt;
+	}
+	.disclaimer-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:first-child {  
+		border: 1px solid transparent;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	.disclaimer-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:first-child:hover {  
+		background: none repeat scroll 0 0 red;
+		color: #ffffff;
+	}
+	.disclaimer-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child {  
+		background: none repeat scroll 0 0 #628237;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		color: #ffffff;
+		font-weight: bold;
+		opacity: 0.75;
+	}
+	.disclaimer-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child:hover {  
+		opacity: 1;
+	}
+/***** END DISCLAIMER DIALOG *****/
+
+/***** BEGIN GENERIC DIALOG *****/
+	.generic-dialog > .ui-dialog-titlebar {
+		background: none repeat scroll 0 0 #5e7630;
+		margin: 0 0 5px;
+		position: relative;
+	}
+	.generic-dialog > .ui-dialog-titlebar > span {
+		color: white;	
+		font-size: 14pt;
+	}
+	.generic-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button {  
+		background: none repeat scroll 0 0 #628237;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		color: #ffffff;
+		font-weight: bold;
+		opacity: 0.75;
+	}
+	.generic-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button {  
+		opacity: 1;
+		border: 1px solid transparent;
+	}
+	.generic-dialog > div > button > span.ui-icon {
+		background-color: #5e7630;
+		background-image: url("http://download.jqueryui.com/themeroller/images/ui-icons_ffffff_256x240.png") !important;
+	}
+/***** END GENERIC DIALOG *****/
+
+/***** BEGIN NOTICE DIALOG *****/
+	.notice-dialog {
+		box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	}
+	.notice-dialog > .ui-dialog-titlebar {
+		background: none repeat scroll 0 0 #b17f00;
+		margin: 0 0 5px;
+		position: relative;
+	}
+	.notice-dialog > .ui-dialog-titlebar > span {
+		color: white;	
+		font-size: 14pt;
+	}
+	.notice-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child {  
+		background: none repeat scroll 0 0 #b98600;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		color: #f1f1f1;
+		font-weight: bold;
+	}
+	.notice-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child:hover {  
+		background: none repeat scroll 0 0 #b17f00;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	.notice-dialog > div > button > span.ui-icon {
+		background-color: #b17f00;
+		background-image: url("http://download.jqueryui.com/themeroller/images/ui-icons_ffffff_256x240.png") !important;
+	}
+/***** END NOTICE DIALOG *****/
+
+/***** BEGIN ERROR DIALOG *****/
+	.error-dialog > .ui-dialog-titlebar {
+		background: none repeat scroll 0 0 #916800;
+		margin: 0 0 5px;
+		color: #FEF0CF;
+		position: relative;
+	}
+	.error-dialog > .ui-dialog-titlebar > span {
+		color: white;	
+		font-size: 14pt;
+	}
+	.error-dialog > .ui-dialog-titlebar > button {
+		background-color: #916800;
+	}
+	.error-dialog > .ui-dialog-titlebar > button > span.ui-icon {
+		background-image: url("http://download.jqueryui.com/themeroller/images/ui-icons_f1f1f1_256x240.png");
+	}
+	.error-dialog > .ui-dialog-titlebar > button.ui-state-active  {
+		border: 1px solid #fef0cf;
+	}
+	.error-dialog > .ui-dialog-titlebar > button.ui-state-hover > span.ui-icon {
+		background-image: url("http://download.jqueryui.com/themeroller/images/ui-icons_fef0cf_256x240.png");
+	}
+	.error-dialog > .ui-dialog-titlebar > button.ui-state-active  {
+		background-color: #ffffff;
+		border: 1px solid #804711;
+	}
+	.error-dialog > .ui-dialog-titlebar > button.ui-state-active > span.ui-icon {
+		background-image: url("http://download.jqueryui.com/themeroller/images/ui-icons_916800_256x240.png");
+	}
+	.error-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child {  
+		border-radius: 5px;
+		color: #000000;
+		font-weight: bold;
+		opacity: 0.75;
+	}
+	.error-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child:hover {  
+		border: 1px solid #916800;
+		background: none repeat scroll 0 0 #916800;
+		color: #FEF0CF;
+		opacity: 1;
+	}
+/***** END ERROR DIALOG *****/
+
+/***** BEGIN ERROR DIALOG *****/
+	.alert-dialog > .ui-dialog-titlebar {
+		background: none repeat scroll 0 0 #CC0000;
+		margin: 0 0 5px;
+		color: #FEF0CF;
+		position: relative;
+	}
+	.alert-dialog > .ui-dialog-titlebar > span {
+		color: white;	
+		font-size: 14pt;
+	}
+	.alert-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child {  
+		border: 1px solid #CC0000;
+		border-radius: 5px;
+		color: #cc0000;
+		font-weight: bold;
+		opacity: 0.75;
+	}
+	.alert-dialog > .ui-dialog-buttonpane > .ui-dialog-buttonset > button:last-child:hover {  
+		border: 1px solid #CC0000;
+		background: none repeat scroll 0 0 #CC0000;
+		color: #ffffff;
+		opacity: 1;
+	}
+/***** END ERROR DIALOG *****/

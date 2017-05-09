@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-US">
+	<head >
+		<title></title>
+		<link rel="icon" type="image/png" href="probe.png">
+		<meta charset="utf-8" />
+		<script src="/js/jQuery/jquery-1.12.4.min.js" type="text/javascript" ></script>
+		<script src="/js/jQuery/jquery-ui-1.12.1.custom/jquery-ui.min.js" type="text/javascript"></script>
+		<link href="/js/jQuery/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+		<script src="/js/system/dialogs.js" type="text/javascript"></script>
+		<script src="/js/system/dateTime.js" type="text/javascript"></script>
+		<script src="/js/system/verifyForm.js" type="text/javascript"></script>
+		<script src="/Application.js" type="text/javascript"></script>
+
+		<link href="/css/system/layout.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="/css/system/dialogs.css" media="all" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" >
+			/********** BEGIN DOCUMENT **********/
+				jQuery(document).ready(
+					function() {
+						
+						/***** BEGIN LOADING MESSAGE TO CONTAINER *****/
+							loadMessage( { "id" : "#fakeDialog", "align" : "center", "valign" : "middle", "message" : "???" }  );
+						/***** END LOADING MESSAGE TO CONTAINER *****/
+
+						console.log(global.logging);
+
+						dumpLogging();
+
+						
+					}
+				);
+			/********** END DOCUMENT **********/
+			
+			/********** BEGIN FUNCTIONS **********/
+				function import() {
+				
+					
+				
+				}
+			/********** BEGIN FUNCTIONS **********/
+
+		</script>
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1>{Page Title}</h1>
+			</header>
+			<nav>
+				<li><a>Menu Item 1</a></li>
+			</nav>
+			<section>
+				<article>
+					<header>
+						<h2>
+							<a>{BREADCRUMBS}</a> > <a>{BREADCRUMBS}</a>
+						</h2>
+					</header>
+					<section id="mainContent">
+						<article>
+							<header>
+								<h3>{SECTION TITLE}</h3>
+							</header>
+							
+							<footer>
+								
+							</footer>
+						</article>
+					</section>
+					<footer>
+						
+					</footer>
+				</article>
+			</section>
+			<footer>
+				<section>
+					<article>
+						{footer}
+					</article>
+					<article id="debug">
+						<header>Debug</header>
+						<section>
+							<article></article>
+						</section>
+					</article>
+				</section>
+			</footer>
+		</article>
+	</body>
+</html>

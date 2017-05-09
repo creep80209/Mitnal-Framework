@@ -1,0 +1,60 @@
+.transactions {
+	width: 100%;
+}
+.transactions > article {
+	border: 1px solid rgba( 0, 0, 0, .75 );
+	display: table;
+	width: 100%;
+}
+
+.transactions > article > header {
+	border-bottom: 1px solid rgba( 0, 0, 0, .75 );
+	display: table-header-group;
+}
+.transactions > article > header > span {
+	background : rgba( 0, 0, 0, .20 );
+	border-bottom: 1px solid rgba( 0, 0, 0, .75 );
+	display: table-cell;
+	padding: 3px 5px;
+}
+.transactions > article > header > span:first-child {
+	width: 30%;
+}
+.transactions > article > header > span:last-child {
+	width: 100px;
+}
+
+.transactions > article > section {
+	width: 100%;
+	display: table-row-group;
+}
+.transactions > article > section > article {
+	border-bottom: 1px solid rgba( 0, 0, 0, .75 );
+	display: table-row;
+	width: inherit;
+}
+.transactions > article > section > article:hover {
+	background : rgba( 255, 255, 255, .25 );
+}
+
+.transactions > article > section > article > header {
+	display : none;
+}
+
+
+.transactions > article > section > article > span {
+	border-bottom: 1px solid rgba( 0, 0, 0, .1 );
+	display: table-cell;
+	padding: 3px 5px;
+}
+.transactions > article > section > article > span:first-child {
+	width: 30%;
+}
+.transactions > article > section > article > span:last-child {
+	width: 100px;
+}
+
+.transactions > article > section > article > footer {
+	display : none;
+}
+

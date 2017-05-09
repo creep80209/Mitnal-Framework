@@ -1,0 +1,340 @@
+body {
+	background-color: rgba( 0, 0, 0, .9);
+	color: rgba(129, 212, 250, 1);
+}
+
+/********** BEGIN WEB SERVER CHECK **********/
+	.checkWebServer > article {
+		background: rgba(129, 212, 250, .05);
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		border: 1px solid rgba(129, 212, 250, .8);
+		color: rgba(129, 212, 250, .8);
+		border-radius: 3px;
+	}
+	.checkWebServer > article:hover {
+		background: rgba(129, 212, 250, .1);
+		border: 1px solid rgba(129, 212, 250, 1);
+		color: rgba(129, 212, 250, 1);
+	}
+
+	/***** BEGIN HEADER *****/
+		.checkWebServer > article > header {
+			height: 15px;
+		}
+		.checkWebServer > article > header > h6 {
+			font-size: 8pt;
+			font-weight: normal;
+			border-left: 1px solid rgba(129, 212, 250, .8); 
+			border-bottom: 1px solid rgba(129, 212, 250, .8); 
+			display: inline-block;
+			height: inherit;
+			font-size: 9px;
+			line-height: 13px;
+			padding: 0px 4px;
+			margin: 0px;
+			float: right;
+			background: rgba(129, 212, 250, .2);
+			border-bottom-left-radius: 3px;
+		}
+	/***** END HEADER *****/
+
+	/***** BEGIN BODY *****/
+		.checkWebServer > article > div {
+			height: 70px;
+		}
+	/***** END BODY *****/
+
+	/***** BEGIN FOOTER *****/
+		.checkWebServer > article > footer {
+			display: table;
+			height: 15px;
+			width: inherit;
+		}
+		.checkWebServer > article > footer > button {
+			border-top: 1px solid rgba(129, 212, 250, .8);
+			border-right: 1px solid rgba(129, 212, 250, .8);
+			border-bottom: 0 solid rgba(129, 212, 250, .8);
+			border-left: 0 solid rgba(129, 212, 250, .8);
+			background: rgba(129, 212, 250, .15);
+			height: inherit;
+			font-size: 9px;
+			line-height: 13px;
+			color: rgba(129, 212, 250, 1);
+			border-top-right-radius: 3px;
+			cursor: pointer;
+			width: 40px;
+			letter-spacing: 1px;
+		}
+	/***** END FOOTER *****/
+/********** END WEB SERVER CHECK **********/
+
+/********** BEGIN CF SERVER CHECK **********/
+	.checkCFServer > article {
+		background: rgba(129, 212, 250, .05);
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		border: 1px solid rgba(129, 212, 250, .8);
+		color: rgba(129, 212, 250, .8);
+		border-radius: 3px;
+	}
+	.checkCFServer > article:hover {
+		background: rgba(129, 212, 250, .1);
+		border: 1px solid rgba(129, 212, 250, 1);
+		color: rgba(129, 212, 250, 1);
+	}
+
+	/***** BEGIN HEADER *****/
+		.checkCFServer > article > header {
+			height: 15px;
+			max-height: 15px;
+		}
+		.checkCFServer > article > header > h6 {
+			font-size: 8pt;
+			font-weight: normal;
+			border-left: 1px solid rgba(129, 212, 250, .8); 
+			border-bottom: 1px solid rgba(129, 212, 250, .8); 
+			display: inline-block;
+			height: 14px;
+			font-size: 9px;
+			line-height: 14px;
+			padding: 0px 4px;
+			margin: 0px;
+			float: right;
+			background: rgba(129, 212, 250, .2);
+			border-bottom-left-radius: 3px;
+		}
+	/***** END HEADER *****/
+
+	/***** BEGIN BODY *****/
+		.checkCFServer > article > div {
+			height: 70px;
+		}
+	/***** END BODY *****/
+
+	/***** BEGIN FOOTER *****/
+		.checkCFServer > article > footer {
+			display: table;
+			height: 15px;
+			width: inherit;
+		}
+		.checkCFServer > article > footer > button {
+			border-top: 1px solid rgba(129, 212, 250, .8);
+			border-right: 1px solid rgba(129, 212, 250, .8);
+			border-bottom: 0 solid rgba(129, 212, 250, .8);
+			border-left: 0 solid rgba(129, 212, 250, .8);
+			background: rgba(129, 212, 250, .15);
+			height: inherit;
+			font-size: 9px;
+			line-height: 13px;
+			color: rgba(129, 212, 250, 1);
+			border-top-right-radius: 3px;
+			cursor: pointer;
+			width: 40px;
+			letter-spacing: 1px;
+		}
+	/***** END FOOTER *****/
+/********** END CF SERVER CHECK **********/
+
+
+/********** BEGIN DRIVE CHECK **********/
+	.checkDrive > article {
+		background: rgba(129, 212, 250, .2);
+		display: inline-block;
+		width: 206px;
+		height: 100px;
+		border: 1px solid rgba(129, 212, 250, .8);
+		color: rgba(129, 212, 250, .8);
+		border-radius: 3px;
+	}
+	.checkDrive > article:hover {
+		background: rgba(129, 212, 250, .3);
+		border: 1px solid rgba(129, 212, 250, 1);
+		color: rgba(129, 212, 250, 1);
+	}
+
+	/***** BEGIN HEADER *****/
+		.checkDrive > article > header {
+			height: 15px;
+			max-height: 15px;
+		}
+		.checkDrive > article > header > h6 {
+			font-size: 8pt;
+			font-weight: normal;
+			border-left: 1px solid rgba(129, 212, 250, .8); 
+			border-bottom: 1px solid rgba(129, 212, 250, .8); 
+			display: inline-block;
+			height: 14px;
+			font-size: 9px;
+			line-height: 14px;
+			padding: 0px 4px;
+			margin: 0px;
+			float: right;
+			background: rgba(129, 212, 250, .2);
+			border-bottom-left-radius: 3px;
+		}
+	/***** END HEADER *****/
+
+	/***** BEGIN BODY *****/
+		.checkDrive > article > div {
+			height: 70px;
+		}
+	/***** END BODY *****/
+
+	/***** BEGIN FOOTER *****/
+		.checkDrive > article > footer {
+			display: table;
+			height: 15px;
+			width: inherit;
+		}
+		.checkDrive > article > footer > button {
+			border-top: 1px solid rgba(129, 212, 250, .8);
+			border-right: 1px solid rgba(129, 212, 250, .8);
+			border-bottom: 0 solid rgba(129, 212, 250, .8);
+			border-left: 0 solid rgba(129, 212, 250, .8);
+			background: rgba(129, 212, 250, .15);
+			height: inherit;
+			font-size: 9px;
+			line-height: 13px;
+			color: rgba(129, 212, 250, 1);
+			border-top-right-radius: 3px;
+			cursor: pointer;
+			width: 40px;
+			letter-spacing: 1px;
+		}
+	/***** END FOOTER *****/
+/********** END DRIVE CHECK **********/
+
+
+/********** BEGIN APPLICATION LOG **********/
+	#applicationLogs {
+		background: rgba(129, 212, 250, .05);
+		display: inline-block;
+		width: inherit;
+		min-width: 500px;
+		height: 150px;
+		border: 1px solid rgba(129, 212, 250, .8);
+		color: rgba(129, 212, 250, .8);
+		border-radius: 3px;
+	}
+	
+	/***** BEGIN HEADER *****/
+		#applicationLogs > header {
+			height: 15px;
+			width: 100%;
+		}
+		#applicationLogs > header > h6 {
+			font-size: 8pt;
+			font-weight: normal;
+			border-bottom: 1px solid rgba(129, 212, 250, .8); 
+			display: block;
+			height: inherit;
+			font-size: 10px;
+			padding: 0px 4px;
+			margin: 0px;
+			background: rgba(129, 212, 250, .2);
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+	/***** END HEADER *****/
+
+	/***** BEGIN BODY *****/
+		#applicationLogs > section {
+			height: 116px;
+			overflow-y: auto;
+			padding: 2px 5px; 
+			display: block;
+		}
+		/***** BEGIN ARTICLE *****/
+			#applicationLogs > section > article {
+				display: block;
+				BACKGROUND: PINK;
+				margin-top: 10px 0px;
+			}
+
+			#applicationLogs > section > article > header {
+				display: table;
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			#applicationLogs > section > article > header > div {
+				display: table-row;
+			}
+
+			#applicationLogs > section > article > section > article {
+				display: table-row;
+				border-collapse: collapse;
+				width: 100%;
+				
+			}
+
+			#applicationLogs > section > article > header > div > span,
+			#applicationLogs > section > article > section > article > span {
+				border: 1px solid yellow;
+				display: table-cell;
+			}
+
+			#applicationLogs > section > article > header > div > span:nth-child(1),
+			#applicationLogs > section > article > section > article > span:nth-child(1) {
+				width: 50px;
+			}
+			#applicationLogs > section > article > header > div > span:nth-child(2),
+			#applicationLogs > section > article > section > article > span:nth-child(2) {
+				
+			}
+			#applicationLogs > section > article > header > div > span:nth-child(3),
+			#applicationLogs > section > article > section > article > span:nth-child(3) {
+				width: 50px;
+			}
+			#applicationLogs > section > article > header > div > span:nth-child(4),
+			#applicationLogs > section > article > section > article > span:nth-child(4) {
+				width: 50px;
+			}
+
+
+
+			#applicationLogs > section > article > section > article > span {
+				display: table-cell;
+				
+			}
+		/***** BEGIN ARTICLE *****/
+	/***** END BODY *****/
+
+	/***** BEGIN FOOTER *****/
+		#applicationLogs > footer {
+			display: table;
+			height: 15px;
+			width: inherit;
+		}
+		#applicationLogs > footer > button {
+			display: inline-block;
+			border-top: 1px solid rgba(129, 212, 250, .8);
+			border-right: 1px solid rgba(129, 212, 250, .8);
+			border-bottom: 0 solid rgba(129, 212, 250, .8);
+			border-left: 0 solid rgba(129, 212, 250, .8);
+			background: rgba(129, 212, 250, .15);
+			height: inherit;
+			font-size: 9px;
+			line-height: 13px;
+			color: rgba(129, 212, 250, 1);
+			cursor: pointer;
+			letter-spacing: 1px;
+		}
+		#applicationLogs > footer > button:last-child {
+			border-top-right-radius: 3px;
+		}
+		#applicationLogs > footer > button:hover {
+			background: rgba(129, 212, 250, .3);
+			border-top: 1px solid rgba(129, 212, 250, 1);
+			border-right: 1px solid rgba(129, 212, 250, 1);
+			border-bottom: 0 solid rgba(129, 212, 250, 1);
+			border-left: 0 solid rgba(129, 212, 250, 1);
+			color: rgba(129, 212, 250, 2);
+		}
+		
+	/***** END FOOTER *****/
+/********** END APPLICATION LOG **********/
